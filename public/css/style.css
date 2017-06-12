@@ -616,6 +616,16 @@
 		border-bottom:1px solid #DCDBD7;
 		position:relative;
 		z-index: 99;
+		&.scrolled {
+			 position: fixed;
+			 width: 100%;
+			 z-index: 10;
+			 top: 0;
+			 opacity: 0.9;
+			 &:hover {
+				  opacity: 1;
+			 }
+		 }
 	}
 	.site-header{
 		padding:40px 0 0;
